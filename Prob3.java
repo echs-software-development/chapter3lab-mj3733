@@ -28,15 +28,15 @@ public class Prob3 {
     
     double BMI = bodyMassIndex;
     if (BMI < 18.5)
-    System.out.println(" BMI is Underweight");
+    System.out.println("Underweight");
     
     else if ( BMI>18.5 && BMI<25.0 )
-    System.out.println("BMI is Normal");
+    System.out.println("Normal");
     
     else if ( BMI >25.0 && BMI<30.0)
-    System.out.println("BMI is Overweight");
+    System.out.println("Overweight");
     
     else
-   System.out.print("BMI is Obese");
+   System.out.print("Obese");
   }
 }
